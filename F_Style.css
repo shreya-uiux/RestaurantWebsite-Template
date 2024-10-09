@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./F_Images/feane_bg.jpg);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+nav{
+    height: 5rem;
+    width: 100%;
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    margin-right: 17rem;
+    margin-left: 12rem;
+}
+
+.left a{
+    color: white;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.center ul a{
+    color: white;
+    padding-right: 1.9rem;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center ul{
+    list-style-type: none;
+}
+
+.center{
+    margin-right: 3rem;
+    padding: 2rem;
+}
+
+.right i{
+    padding: 0.7rem;
+}
+
+.right button{
+    width: 10rem;
+    height: 2.47rem;
+    border-radius: 7rem;
+    font-size: 17px;
+    color: white;
+    background-color: #ffbe33;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.pera{
+    width: 36vw;
+    margin-top: 12rem;
+    margin-left: 12rem;
+    color: white;
+}
+
+.pera p{
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+
+.pera h1{
+    font-size: 46px;
+    font-style: italic;
+}
+
+.pera button{
+    width: 10rem;
+    height: 2.47rem;
+    border-radius: 7rem;
+    font-size: 17px;
+    margin-top: 0.5rem;
+    color: white;
+    background-color: #ffbe33;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+.dots{
+    width: 5rem;
+    height: 2.50rem;
+    margin-left: 12rem;
+    margin-top: 9.20rem;
+    padding: 0.7rem;
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+.offerSection{
+    padding-top: 45px;
+    padding-bottom: 90px;
+}
+
+.offer{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.col{
+    position: relative;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    border-radius: 5px;
+    padding: 20px 15px;
+    background-color: #222831;
+    color: #ffffff;
+}
+
+.imgBox img{
+    width: 175px;
+    height: 175px;
+    margin-right: 15px;
+    border-radius: 100%;
+    position: relative;
+    border: 5px solid #ffbe33;
+}
+
+.detailBox{
+    font-size: 19px;
+    font-style: italic;
+    letter-spacing: 0.02rem;
+}
+
+.detailBox h5{
+    font-size: 26px;
+}
+
+.detailBox h6{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.detailBox span{
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.detailBox a{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    font-size: 17px;
+    border-radius: 45px;
+    border: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+.list{
+    margin: 0 150px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.menuhead{
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.listbar{
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.listbar ul li{
+    list-style-type: none;
+}
+
+.listbar ul li a{
+    padding: 4px 27px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 35px;
+}
+
+#select{
+    color: #ffffff;
+    background-color: #222831;
+}
+
+.dises{
+    display: flex;
+}
+
+.dish-list{
+    padding: 0 15px;
+}
+
+.box{
+    margin-top: 25px;
+    background-color: #222831;
+    color: #ffffff;
+    border-radius: 18px;
+}
+
+.img{
+    display: flex;
+    justify-content:center;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    background: rgb(241,242,243);
+    margin: -1px;
+    padding: 25px;
+    height: 215px;
+}
+
+.details{
+    padding: 25px;
+    text-align: left;
+    line-height: 1.5rem;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.option{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details .option a{
+    padding: 9px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 2.5rem;
+}
+
+.more{
+    height: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.more a{
+    width: 12rem;
+    height: 2.7rem;
+    padding-top: 0.5rem;
+    font-size: 18px;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;   
+    color: white;
+    background-color: #ffbe33;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    height: 500px;
+    background-color: rgb(34,40,49);
+}
+
+.subfoot{
+    padding: 50px 0;
+    margin: 0 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.lhs{
+    width: 300px;
+    text-align: center;
+}
+
+.lhs h2{
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.middle{
+    width: 500px;
+    padding-top: 10px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 50px;
+}
+
+#A{
+    color: #ffffff;
+    font-size: 35px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.rhs{
+    width: 300px;
+    text-align: center;
+}
+
+.rhs h2{
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.fpera{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.brands a{
+    color: #000;
+    background-color: #fff;
+    font-size: 30px;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 0 1px;
+    border-radius: 50%;
+}
+
+.about{
+    /* border: 2px solid red; */
+    background-color: #222831;
+    padding: 1px 0;
+}
+
+.aboutmain{
+    /* border: 2px dashed blue; */
+    display: flex;
+    margin: 5rem 15rem 5rem 15rem;
+}
+
+.aboutimg img{
+    height: 39rem;
+    padding: 10px;
+    background: transparent;
+}
+
+.aboutdetail{
+    /* border: 1px solid greenyellow; */
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 1rem;
+    margin-top: 12rem;
+    line-height: 25px; 
+}
+
+.aboutdetail h1{
+    font-style: italic;
+    text-decoration: none;
+    font-family: initial;
+    font-size: 35px;
+}
+
+.aboutdetail .more{
+    justify-content: left;
+}
+
+.four{
+    padding: 90px 0;
+}
+
+.fandm{
+    margin: 0 180px;
+    padding: 10px 10px;
+    display: flex;
+}
+
+.form{
+    margin-left: 15px;
+}
+
+.form form{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.form h2{
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    width: 35rem;
+    height: 3rem;
+    font-size: 17px;
+    padding: 12px 14px;
+}
+
+.maps{
+    position: relative;
+    margin-left: 45px;
+}
+
+.maps img{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 310px;
+    width: 500px;
+    margin-top: 60px;
+}
+
+button:hover{
+    background-color: #ffbe33;
+    cursor: pointer;
+}
+
+.left a:hover{
+    color: #faab00;
+}
+
+.right i:hover{
+    color: #ffbe33;
+}
+
+#A:hover{
+    color: #faab00;
+}
+
+li a:hover{
+    color: #faab00;
+    background-color: transparent;
+}
+
+.listbar a:hover{
+    color: #fff;
+    background-color: #222831;
+}
+
+button:hover{
+    background-color: #faab00;
+}
+
+.detailBox a:hover{
+    background-color: #faab00;
+}
+
+.more a:hover{
+    background-color: #faab00;
+}

@@ -6,4 +6,4 @@
 > **For a detailed view of the project, kindly open this URL :** https://shreya-uiux.github.io/RestaurantWebsite-Template/
 
 ## Purpose :
-> This website is a clone of a template available at ThemeWagon, developed solely for educational and non-commercial purposes. Its aim is to explore and showcase web development skills.
+> This website is a replica of a template available at ThemeWagon, developed solely for educational and non-commercial purposes. Its aim is to explore and showcase web development skills.
